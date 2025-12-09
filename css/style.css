@@ -6,7 +6,7 @@
   border: 2px dashed red;
 }
 
-.jumbotron-section .col {
+#jumbotron-section .col {
   height: 200px;
 }
 
@@ -20,7 +20,7 @@
 }
 
 /* Jumbo-sect */
-.jumbotron-section {
+#jumbotron-section {
   height: 70vh;
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
