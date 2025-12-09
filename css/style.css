@@ -1,7 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.debug {
+  border: 2px dashed red;
+}
+
+.jumbotron-section .col {
+  height: 200px;
+}
+
+/* Header */
 .sony-logo {
   height: 30px;
 }
 
 .sony-logo > img {
   height: 50%;
+}
+
+/* Jumbo-sect */
+.jumbotron-section {
+  height: 70vh;
+  background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
+  background-position: center;
 }
