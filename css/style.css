@@ -1,3 +1,4 @@
+/* Reset */
 * {
   box-sizing: border-box;
 }
@@ -11,18 +12,60 @@ img {
   height: 100%;
 }
 
-ul {
-  list-style-type: none;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Utils */
 .img-container {
   width: 60%;
 }
 
 /* Header */
+nav {
+  height: 60px;
+}
+
 .sony-logo > img {
   width: 60px;
-  height: 25px;
+  height: 30px;
+}
+
+.nav-item.dropdown {
+  position: relative;
+}
+
+.nav-link {
+  color: black;
+}
+
+.dropdown-toggle-custom::after {
+  content: url("../img/chevron-down-solid.svg");
+  width: 10px;
+  position: absolute;
+  top: 25%;
+  right: -10px;
+}
+
+header .btn-custom {
+  color: #fff;
+  border-radius: 20px;
+  background-color: #363636;
+}
+
+header .btn-custom:hover {
+  color: #fff;
+  border-radius: 20px;
+  background-color: #363636;
 }
 
 /* Jumbo-sect */
@@ -65,8 +108,4 @@ footer .img-container {
 
 .sie-logo {
   width: 150px;
-}
-
-footer .info {
-  text-decoration: underline;
 }
