@@ -11,23 +11,27 @@ img {
   border: 2px dashed red;
 }
 
-#jumbotron-section .col {
-  height: 200px;
-}
-
 /* Header */
-.sony-logo {
-  height: 30px;
-}
-
 .sony-logo > img {
-  height: 50%;
+  width: 60px;
+  height: 25px;
 }
 
 /* Jumbo-sect */
-#jumbotron-section {
-  height: 70vh;
-  background-image: url(../img/jumbo-bg.png);
+.jumbo-section {
+  height: 80vh;
   background-size: cover;
   background-position: center;
+}
+
+#returnal {
+  background-image: url(../img/jumbo-bg.png);
+}
+
+.jumbo-section .img-container {
+  width: 60%;
+}
+
+#it-takes-two {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
