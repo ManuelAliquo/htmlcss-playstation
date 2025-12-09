@@ -11,6 +11,10 @@ img {
   border: 2px dashed red;
 }
 
+.img-container {
+  width: 60%;
+}
+
 /* Header */
 .sony-logo > img {
   width: 60px;
@@ -28,10 +32,6 @@ img {
   background-image: url(../img/jumbo-bg.png);
 }
 
-.jumbo-section .img-container {
-  width: 60%;
-}
-
 #it-takes-two {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
@@ -41,6 +41,7 @@ img {
   background-color: #bebcbb;
 }
 
-.plus-section .img-container {
-  width: 60%;
+/* Now-sect */
+.bg-custom-now {
+  background-color: #161c3b;
 }
