@@ -1,0 +1,7 @@
+.sony-logo {
+  height: 30px;
+}
+
+.sony-logo > img {
+  height: 50%;
+}
