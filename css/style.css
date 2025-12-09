@@ -1,3 +1,8 @@
+:root {
+  --nav-height: 60px;
+  --sony-logo-height: 30px;
+}
+
 /* Reset */
 * {
   box-sizing: border-box;
@@ -26,18 +31,22 @@ li {
 }
 
 /* Utils */
+main {
+  padding-top: calc(var(--nav-height) + var(--sony-logo-height));
+}
+
 .img-container {
   width: 60%;
 }
 
 /* Header */
 nav {
-  height: 60px;
+  height: var(--nav-height);
 }
 
 .sony-logo > img {
   width: 60px;
-  height: 30px;
+  height: var(--sony-logo-height);
 }
 
 .nav-item.dropdown {
@@ -58,13 +67,11 @@ nav {
 
 header .btn-custom {
   color: #fff;
-  border-radius: 20px;
   background-color: #363636;
 }
 
 header .btn-custom:hover {
   color: #fff;
-  border-radius: 20px;
   background-color: #363636;
 }
 
