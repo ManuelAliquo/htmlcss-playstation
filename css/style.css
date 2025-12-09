@@ -11,6 +11,10 @@ img {
   height: 100%;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .img-container {
   width: 60%;
 }
@@ -44,4 +48,25 @@ img {
 /* Now-sect */
 .bg-custom-now {
   background-color: #161c3b;
+}
+
+/* Footer */
+footer {
+  background-color: #00439c;
+}
+
+footer .img-container {
+  width: 90px;
+}
+
+.region img {
+  width: 20px;
+}
+
+.sie-logo {
+  width: 150px;
+}
+
+footer .info {
+  text-decoration: underline;
 }
