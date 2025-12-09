@@ -35,3 +35,12 @@ img {
 #it-takes-two {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
+
+/* Plus-sect */
+.bg-custom-plus {
+  background-color: #bebcbb;
+}
+
+.plus-section .img-container {
+  width: 60%;
+}
