@@ -90,6 +90,12 @@ header .btn-custom:hover {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+/* Other-games-sect */
+.outline-blue:hover {
+  outline: 3px solid #5a9cd2;
+  outline-offset: 3px;
+}
+
 /* Plus-sect */
 .bg-custom-plus {
   background-color: #bebcbb;
