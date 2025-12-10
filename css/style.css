@@ -248,6 +248,23 @@ figure:hover .opacity-custom {
   background-color: #d9dadc;
 }
 
+/* Discount-sect */
+#discounts-sect h1 {
+  font-size: 2.2rem;
+}
+
+@media (min-width: 576px) {
+  #discounts-sect h1 {
+    font-size: 2.6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #discounts-sect h1 {
+    font-size: 2.2rem;
+  }
+}
+
 /* Now-sect */
 .bg-custom-now {
   background-color: #161c3b;
