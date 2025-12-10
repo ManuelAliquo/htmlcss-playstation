@@ -230,6 +230,14 @@ figure:hover .opacity-custom {
   font-size: 0.8rem;
 }
 
+/* PS4-sect */
+#ps4-sect h1 > span {
+  font-size: 14px;
+  position: relative;
+  top: -6px;
+  right: 0;
+}
+
 /* Plus-sect */
 .bg-custom-plus {
   background-color: #bebcbb;
