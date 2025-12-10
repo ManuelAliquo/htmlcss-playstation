@@ -39,6 +39,16 @@ main {
   width: 60%;
 }
 
+a.btn:hover {
+  outline: 2px solid #0d6efd;
+  outline-offset: 2px;
+}
+
+main a:hover {
+  outline: 2px solid #0d6efd;
+  outline-offset: 2px;
+}
+
 /* Header */
 nav {
   height: var(--nav-height);
@@ -73,21 +83,14 @@ header .btn-custom {
 header .btn-custom:hover {
   color: #fff;
   background-color: #363636;
+  outline-color: #363636;
 }
 
-/* Jumbo-sect */
+/* General Jumbo-sect */
 .jumbo-section {
   height: 80vh;
   background-size: cover;
   background-position: center;
-}
-
-#returnal {
-  background-image: url(../img/jumbo-bg.png);
-}
-
-#it-takes-two {
-  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 .jumbo-section .btn {
@@ -95,21 +98,34 @@ header .btn-custom:hover {
   background-color: #cd3d0f;
 }
 
-@media (max-width: 576px) {
-  #returnal h1 {
-    font-size: 2.1rem;
-  }
+.jumbo-section .btn:hover {
+  outline-color: #cd3d0f;
+}
+
+/* 1st Jumbo-sect */
+#returnal {
+  background-image: url(../img/jumbo-bg.png);
+}
+
+#returnal h1 {
+  font-size: 2.1rem;
 }
 
 @media (min-width: 576px) {
   #returnal h1 {
     font-size: 2.3rem;
   }
+  #returnal a {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 768px) {
   #returnal h1 {
     font-size: 2.5rem;
+  }
+  #returnal a {
+    font-size: 14px;
   }
 }
 
@@ -120,6 +136,14 @@ header .btn-custom:hover {
   #returnal p {
     font-size: 0.8rem;
   }
+  #returnal a {
+    font-size: 13px;
+  }
+}
+
+/* 2nd Jumbo-sect */
+#it-takes-two {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 @media (max-width: 576px) {
@@ -168,6 +192,10 @@ header .btn-custom:hover {
 }
 
 /* PS5-sect */
+#ps5-sect a {
+  outline: 0;
+}
+
 #ps5-sect h1.custom-fs,
 #ps5-sect h2.custom-fs {
   font-size: calc(1.7rem + 1.5vw);
@@ -230,6 +258,15 @@ figure:hover .opacity-custom {
   font-size: 0.8rem;
 }
 
+#new-games-sect a {
+  outline: 0;
+}
+
+#new-games-sect img:hover {
+  outline: 2px solid #0d6efd;
+  outline-offset: 3px;
+}
+
 /* PS4-sect */
 #ps4-sect h1 > span {
   font-size: 14px;
@@ -246,6 +283,10 @@ figure:hover .opacity-custom {
 #plus-sect .btn {
   color: #0d79d0;
   background-color: #d9dadc;
+}
+
+#plus-sect .btn:hover {
+  outline-color: #d9dadc;
 }
 
 /* Discount-sect */
@@ -268,6 +309,10 @@ figure:hover .opacity-custom {
 /* Now-sect */
 #now-sect {
   background-color: #161c3b;
+}
+
+#now-sect .btn:hover {
+  outline-color: #f8f9fa;
 }
 
 /* Social-sect */
@@ -303,4 +348,8 @@ footer .img-container {
 
 footer li {
   margin-bottom: 5px;
+}
+
+footer li:hover {
+  text-decoration: underline;
 }
