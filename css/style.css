@@ -92,8 +92,58 @@ header .btn-custom:hover {
 
 /* Other-games-sect */
 .outline-blue:hover {
-  outline: 3px solid #5a9cd2;
+  outline: 3px solid #0d79d0;
   outline-offset: 3px;
+}
+
+/* PS5-sect */
+#ps5-sect h1.custom-fs,
+#ps5-sect h2.custom-fs {
+  font-size: calc(1.7rem + 1.5vw);
+}
+
+#ps5-sect span.custom-font {
+  color: #0d79d0;
+  font-size: calc(0.5rem + 1vw);
+  font-weight: 600;
+}
+
+.opacity-custom {
+  opacity: 0.75;
+}
+
+figure:hover .opacity-custom {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  #ps5-sect .img-fluid:hover {
+    border-bottom: 2px solid #0d79d0;
+  }
+}
+
+@media (min-width: 767px) {
+  #ps5-sect figure:hover {
+    border-bottom: 2px solid #0d79d0;
+  }
+}
+
+@media (min-width: 768px) {
+  #ps5-sect .img-fluid {
+    width: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  #ps5-sect figcaption {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  #ps5-sect figcaption {
+    font-size: 13px;
+  }
 }
 
 /* Plus-sect */
