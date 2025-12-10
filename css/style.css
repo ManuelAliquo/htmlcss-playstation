@@ -286,10 +286,11 @@ figure:hover .opacity-custom {
 /* Footer */
 footer {
   background-color: #00439c;
+  font-size: 0.8rem;
 }
 
 footer .img-container {
-  width: 90px;
+  width: 80px;
 }
 
 .region img {
@@ -298,4 +299,8 @@ footer .img-container {
 
 .sie-logo {
   width: 150px;
+}
+
+footer li {
+  margin-bottom: 5px;
 }
