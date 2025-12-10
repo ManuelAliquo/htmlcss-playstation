@@ -266,8 +266,21 @@ figure:hover .opacity-custom {
 }
 
 /* Now-sect */
-.bg-custom-now {
+#now-sect {
   background-color: #161c3b;
+}
+
+/* Social-sect */
+@media (min-width: 576px) {
+  #social-sect .custom-container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 992px) {
+  #social-sect h1 {
+    font-size: 2rem;
+  }
 }
 
 /* Footer */
