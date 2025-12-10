@@ -90,6 +90,77 @@ header .btn-custom:hover {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+.jumbo-section .btn {
+  color: #fff;
+  background-color: #cd3d0f;
+}
+
+@media (max-width: 576px) {
+  #returnal h1 {
+    font-size: 2.1rem;
+  }
+}
+
+@media (min-width: 576px) {
+  #returnal h1 {
+    font-size: 2.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #returnal h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #returnal h1 {
+    font-size: 2.1rem;
+  }
+  #returnal p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #it-takes-two h1 {
+    font-size: 2.1rem;
+  }
+}
+
+@media (min-width: 576px) {
+  #it-takes-two h1 {
+    font-size: 2.3rem;
+  }
+  #it-takes-two a {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  #it-takes-two img {
+    width: 80%;
+  }
+  #it-takes-two a {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  #it-takes-two img {
+    width: 100%;
+  }
+  #it-takes-two h1 {
+    font-size: 2.1rem;
+  }
+  #it-takes-two p {
+    font-size: 0.8rem;
+  }
+  #it-takes-two a {
+    font-size: 13px;
+  }
+}
+
 /* Other-games-sect */
 .outline-blue:hover {
   outline: 3px solid #0d79d0;
@@ -144,6 +215,19 @@ figure:hover .opacity-custom {
   #ps5-sect figcaption {
     font-size: 13px;
   }
+}
+
+/* New-games-sect */
+#new-games-sect {
+  background-color: #1f1f1f;
+}
+
+#new-games-sect .card {
+  background-color: #1f1f1f;
+}
+
+#new-games-sect span {
+  font-size: 0.8rem;
 }
 
 /* Plus-sect */
