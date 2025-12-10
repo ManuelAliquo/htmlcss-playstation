@@ -239,8 +239,13 @@ figure:hover .opacity-custom {
 }
 
 /* Plus-sect */
-.bg-custom-plus {
+#plus-sect {
   background-color: #bebcbb;
+}
+
+#plus-sect .btn {
+  color: #0d79d0;
+  background-color: #d9dadc;
 }
 
 /* Now-sect */
